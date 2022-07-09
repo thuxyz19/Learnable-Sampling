@@ -1,0 +1,1 @@
+from .pose_resnet import get_resnet50
