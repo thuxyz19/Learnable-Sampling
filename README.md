@@ -31,7 +31,7 @@ $ src
 2. Download the db file and the evaluation config file for the 3DPW dataset from https://cloud.tsinghua.edu.cn/d/2da7d016fedb42de8039/ and put them into ./data/datasets/db/. Note that you should download the original images of the 3DPW dataset from the official webset and prepare them following the key 'image_name' in the db file.
 3. Download the pretrained models from https://cloud.tsinghua.edu.cn/d/bc66b120bd5847649622/ and put them into ./data/pretrained_models/.
 4. Download the trained checkpoints from https://cloud.tsinghua.edu.cn/d/61ba08aec1664798b7b6/ and put them into ./data/checkpoints/.
-5. After doing the above four steps, the structure the ./data directory should be as follows:
+5. After doing the above four steps, the structure of the ./data directory should be as follows:
 ```
 $ data  
 |-- datasets  
