@@ -9,10 +9,26 @@ This is the codebase for the ACM Multi-Media 2022 paper "3D Human Mesh Reconstru
 - pyrender: 0.1.45
 - pyopengl: 3.1.6
 - joblib: 1.1.0
+- pytorch-lightning: 1.1.8
+- opencv-python: 4.5.4.60
+- pillow: 9.1.1
+- loguru: 0.5.3
+- yacs: 0.1.8
+- scikit-image: 0.19.0
+- azureml: 0.2.7
+- azureml-core: 1.36.0.post2
+- bottleneck
+
 2. run the following command in the ./Learnable-Sampling directory to install:
 ```shell
 python setup.py build develop
 ```
+
+3. install opendr via pip+git:
+```shell
+pip install git+https://gitlab.eecs.umich.edu/ngv-python-modules/opendr.git
+```
+
 ## Download SMPL data
 Please prepare the SMPL data following [MeshGraphormer](https://github.com/microsoft/MeshGraphormer) and put all the data into ./src/modeling/data/. After doing so, the structure of the directory should be as follows:
 ```
